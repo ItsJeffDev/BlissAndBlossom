@@ -23,16 +23,13 @@ Welcome to the **Flower Shop Website**! This project showcases a beautifully des
 Here are some screenshots of the website:
 
 ### Homepage
-![Homepage Screenshot](images/homepage_screenshot.png)
+<img src="images/screenshot/ss_1.png" alt="Homepage Screenshot" width="600">
 
-### About Us
-![About Us Screenshot](images/about_us_screenshot.png)
+### Products
+<img src="images/screenshot/ss_2.png" alt="Products Screenshot" width="600">
 
-### Blog
-![Blog Screenshot](images/blog_screenshot.png)
-
-> **Note**: Replace the placeholder image paths (e.g., `images/homepage_screenshot.png`) with the actual paths to your screenshots.
-
+### Contact Us
+<img src="images/screenshot/ss_3.png" alt="Contact Us Screenshot" width="600">
 ## How to Use
 
 1. Clone the repository to your local machine:
@@ -67,12 +64,10 @@ flower/
 
 ## Author
 
-Created by **[Your Name]**. This project is part of my portfolio to showcase my web development skills.
+Created by **Jeff Kolin P. Miranda**. This project is part of my portfolio to showcase my web development skills.
 
-## License
 
-This project is licensed under the MIT License. Feel free to use and modify it as per your needs.
+Feel free to use and modify it as per your needs.
 
----
 
 Thank you for visiting the Flower Shop Website! 🌸
