@@ -4,6 +4,20 @@ Welcome to the **Flower Shop Website**! This project showcases a beautifully des
 
 
  ### 🌐 Live Demo: [Open Website](https://blissandblossom2.vercel.app/)
+
+## Screenshots
+
+Here are some screenshots of the website:
+
+### Homepage
+<img src="images/screenshot/ss_1.png" alt="Homepage Screenshot" width="600">
+
+### Products
+<img src="images/screenshot/ss_2.png" alt="Products Screenshot" width="600">
+
+### Contact Us
+<img src="images/screenshot/ss_3.png" alt="Contact Us Screenshot" width="600">
+ 
 ## Features
 
 - **Responsive Design**: The website is fully responsive and works seamlessly on all devices.
@@ -20,18 +34,6 @@ Welcome to the **Flower Shop Website**! This project showcases a beautifully des
 - **Custom CSS**: Each page has its own CSS file for unique styling.
 - **Interactive Elements**: Includes JavaScript for interactive features.
 
-## Screenshots
-
-Here are some screenshots of the website:
-
-### Homepage
-<img src="images/screenshot/ss_1.png" alt="Homepage Screenshot" width="600">
-
-### Products
-<img src="images/screenshot/ss_2.png" alt="Products Screenshot" width="600">
-
-### Contact Us
-<img src="images/screenshot/ss_3.png" alt="Contact Us Screenshot" width="600">
 ## How to Use
 
 1. Clone the repository to your local machine:
