@@ -2,6 +2,8 @@
 
 Welcome to the **Flower Shop Website**! This project showcases a beautifully designed and fully responsive website for a flower shop. It includes multiple pages such as the homepage, about us, blog, contact us, and more. This project is perfect for demonstrating web development skills and creating a portfolio.
 
+
+ ### 🌐 Live Demo: [Visit my website](https://blissandblossom2.vercel.app/)
 ## Features
 
 - **Responsive Design**: The website is fully responsive and works seamlessly on all devices.
