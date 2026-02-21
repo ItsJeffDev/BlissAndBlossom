@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Bliss & Bloom Flower Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="login.css" />
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo" id="logoimg">
+      <a href="index.html">Bliss <span class="ampersand">&</span> <span class="bloom">Bloom</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="auth-section">
+      <div class="auth-container">
+        <div class="auth-card">
+          <h2 class="auth-title">Welcome Back</h2>
+          <p class="auth-subtitle">Sign in to your account</p>
+
+          <form class="auth-form" id="loginForm">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="form-remember">
+              <label class="checkbox-label">
+                <input type="checkbox" name="remember" id="remember">
+                <span>Remember me</span>
+              </label>
+              <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Sign In</button>
+          </form>
+
+          <div class="auth-divider">
+            <span>Or continue with</span>
+          </div>
+
+          <div class="social-login">
+            <button class="social-btn google-btn">
+              <i class="fab fa-google"></i> Google
+            </button>
+            <button class="social-btn facebook-btn">
+              <i class="fab fa-facebook"></i> Facebook
+            </button>
+          </div>
+
+          <p class="auth-footer">
+            Don't have an account? <a href="signup.html" class="auth-link">Sign up</a>
+          </p>
+        </div>
+
+        <div class="auth-image">
+          <div class="image-content">
+            <h3>Experience Beauty</h3>
+            <p>Discover our exquisite collection of fresh flowers and elegant arrangements crafted with love.</p>
+            <div class="feature-list">
+              <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Fresh Flowers Daily</span>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Same-Day Delivery</span>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Custom Arrangements</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button class="btn btn-primary"><a href="index.html">Back</a></button>
+  </main>
+
+  <hr>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Bliss & Bloom</h3>
+          <p>Where Every Bloom Tells Your Story</p>
+          <p>&copy; 2025 Bliss & Bloom Flower Shop. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-column">
+            <h4>INFORMATION</h4>
+            <a href="faq.html">FAQ</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About Us</a>
+            <a href="product_care.html">Product Care</a>
+
+          </div>
+
+          <div class="footer-column">
+            <h4>HELP</h4>
+            <a href="contact_us.html">Contact Us</a>
+            <a href="delivery.html">Delivery Policy</a>
+            <a href="payment.html">Payment Options</a>
+            <a href="terms.html"> Terms & Conditions</a>
+
+          </div>
+
+          <div class="footer-column">
+            <h4>ACCOUNT</h4>
+            <a href="login.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,3343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Bliss & Bloom Flower Shop
+  </title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NavBar yung may Home, Services, Products, Reviews -->
+  <header class="header">
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo" id="logoimg">
+      Bliss <span class="ampersand">&</span> <span class="bloom">Bloom</span>
+    </div>
+
+    <div class="bx bx-menu" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#products">Products</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+
+    <div class="icons">
+      <div>
+        <i class="fa-regular fa-heart" title="View Favorites"></i>
+      </div>
+      <div>
+        <i class="fa-solid fa-cart-shopping" title="View Cart"></i>
+      </div>
+      <div class="user-dropdown">
+        <i class="fa fa-user" aria-hidden="true" title="User Account"></i>
+        <div class="dropdown-menu">
+          <a href="login.html">Sign In</a>
+          <a href="signup.html">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <!-- Slide-an kang Carousel or Background Image -->
+    <div class="carousel-container">
+      <div class="carousel-slide" style="background: url('./images/flowerz.jpg') center/cover no-repeat;"></div>
+      <div class="carousel-slide" style="background: url('./images/back.jpg') center/cover no-repeat;"></div>
+      <div class="carousel-slide" style="background: url('./images/purple_bg.jpg') center/cover no-repeat;"></div>
+    </div>
+
+    <!-- yung duwang slide button sa side  -->
+    <div class="carousel-controls">
+      <button class="carousel-btn carousel-prev" id="prevBtn">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="carousel-btn carousel-next" id="nextBtn">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="carousel-indicators">
+      <button class="indicator active" data-index="0"></button>
+      <button class="indicator" data-index="1"></button>
+      <button class="indicator" data-index="2"></button>
+    </div>
+
+    <!-- Yung text na nasa left side at may shop now na button -->
+    <div class="hero-content">
+      <h1 class="hero-title">Bliss & Bloom Flower Shop</h1>
+      <h3 class="hero-subtitle">Where Every Bloom Tells Your Story</h3>
+      <p class="hero-description">
+        Flowers are more than decorations—they are feelings, memories, <br /> and
+        messages from the heart.
+      </p>
+      <a href="#products" class="btn btn-primary" style="text-decoration: none; width: fit-content;">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Our Services -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Our <span>Services</span></h2>
+      <p class="section-subtitle">
+        Crafting beautiful moments for every occasion
+      </p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/services_3.png" alt="">
+          </div>
+          <div class="service-info">
+            <h4>Anniversaries</h4>
+            <p>
+              Romantic and meaningful floral designs that celebrate love,
+              memories, and milestones.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/services_1.png" alt="">
+          </div>
+          <div class="service-info">
+            <h4>Birthdays</h4>
+            <p>
+              Bright and cheerful bouquets, flower boxes, and surprise
+              arrangements to make birthdays extra special.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/services_2.png" alt="">
+          </div>
+          <div class="service-info">
+            <h4>Weddings</h4>
+            <p>
+              Elegant bridal bouquets, bridesmaid flowers, boutonnieres,
+              ceremony décor, and reception arrangements—customized to match
+              your theme and love story.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/services_4.png" alt="">
+          </div>
+          <div class="service-info">
+            <h4>Funerals & Sympathy</h4>
+            <p>
+              Respectful and heartfelt sympathy
+              flowers, wreaths, standing sprays, and
+              condolence arrangements to honorand
+              remember loved ones.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/services_5.png" alt="">
+          </div>
+          <div class="service-info">
+            <h4>Other Occasions</h4>
+            <p>
+              Graduations, proposals, baby showers,
+              corporate events, thank-you gifts, and
+              everyday flower needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- yung mga products na naiiling lng sa luwas -->
+  <section id="products" class="products">
+    <div class="container">
+      <section class="popular-showcase">
+        <div class="container">
+
+          <div class="popular-showcase-header">
+            <h2 class="section-title">
+              <span>Best</span> Seller
+            </h2>
+          </div>
+
+          <div class="product-grid" id="product-all">
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product1.png" alt="Scarlet Grace Bouquet" />
+                <div class="product-overlay">
+                  <a href="#product1" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Scarlet Grace Bouquet</h4>
+                <p class="product-desc">
+                  12 classic red roses with misty white baby's breath
+                </p>
+                <p class="price">₱3,890</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product2.png" alt="Sweet Devotion Bouquet" />
+                <div class="product-overlay">
+                  <a href="#product2" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Sweet Devotion Bouquet</h4>
+                <p class="product-desc">Red China roses with pink carnations</p>
+                <p class="price">₱2,690</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product3.png" alt="Pure Love Bouquet" />
+                <div class="product-overlay">
+                  <a href="#product3" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Pure Love Bouquet</h4>
+                <p class="product-desc">
+                  Red roses, pink lilies, and white lisianthus
+                </p>
+                <p class="price">₱3,690</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product4.png" alt="Petal Empress" />
+                <div class="product-overlay">
+                  <a href="#product4" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Petal Empress</h4>
+                <p class="product-desc">
+                  Luxurious blush pink roses with carnations
+                </p>
+                <p class="price">₱4,999</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product5.png" alt="Heart Embrace Bouquet" />
+                <div class="product-overlay">
+                  <a href="#product5" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Heart Embrace Bouquet</h4>
+                <p class="product-desc">
+                  50 fresh Ecuadorian roses with Italian ruscus
+                </p>
+                <p class="price">₱1,899</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product6.png" alt="Better Days" />
+                <div class="product-overlay">
+                  <a href="#product6" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Better Days</h4>
+                <p class="product-desc">
+                  Sunflowers with lush greenery and white ribbon
+                </p>
+                <p class="price">₱3,090</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product7.png" alt="Lily Love" />
+                <div class="product-overlay">
+                  <a href="#product7" class="quick-view">Show All </a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Lily Love</h4>
+                <p class="product-desc">Fresh lilies with red and pink roses</p>
+                <p class="price">₱5,399</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product8.png" alt="Carina" />
+                <div class="product-overlay">
+                  <a href="#product8" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Carina</h4>
+                <p class="product-desc">
+                  Blush roses, white lilies and alstroemeria
+                </p>
+                <p class="price">₱4,199</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product9.png" alt="Sienna" />
+                <div class="product-overlay">
+                  <a href="#product9" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Sienna</h4>
+                <p class="product-desc">
+                  Vibrant pinks and yellows with eucalyptus
+                </p>
+                <p class="price">₱1,749</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product10.png" alt="Red, White, My Delight" />
+                <div class="product-overlay">
+                  <a href="#product10" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Red, White, My Delight</h4>
+                <p class="product-desc">White lilies, red roses and carnations</p>
+                <p class="price">₱5,499</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product11.png" alt="Sunshine Bloom Basket" />
+                <div class="product-overlay">
+                  <a href="#product11" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Sunshine Bloom Basket</h4>
+                <p class="product-desc">
+                  Colorful seasonal flowers in classic basket
+                </p>
+                <p class="price">₱2,799</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product12.png" alt="Rose Citrus Basket" />
+                <div class="product-overlay">
+                  <a href="#product12" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Rose Citrus Basket</h4>
+                <p class="product-desc">
+                  Stunning combination of sustainable roses
+                </p>
+                <p class="price">₱2,899</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product13.png" alt="Touch of Pink" />
+                <div class="product-overlay">
+                  <a href="#product13" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Touch of Pink</h4>
+                <p class="product-desc">
+                  Pink lilies, hydrangea, lisianthus sympathy tribute
+                </p>
+                <p class="price">₱7,850</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product14.png" alt="Light and Shadow" />
+                <div class="product-overlay">
+                  <a href="#product14" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Light and Shadow</h4>
+                <p class="product-desc">
+                  Elegant sympathy stand with lilies and orchids
+                </p>
+                <p class="price">₱8,450</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product15.png" alt="Glorious Memories" />
+                <div class="product-overlay">
+                  <a href="#product15" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Glorious Memories</h4>
+                <p class="product-desc">
+                  Purple roses and pink stargazer sympathy basket
+                </p>
+                <p class="price">₱3,950</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product16.png" alt="Summer Bridal Bouquet" />
+                <div class="product-overlay">
+                  <a href="#product16" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Summer Bridal Bouquet</h4>
+                <p class="product-desc">
+                  Peach carnations, marigolds, and celosia
+                </p>
+                <p class="price">₱5,300</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product17.png" alt="Autumn Bridal Bouquet" />
+                <div class="product-overlay">
+                  <a href="#product17" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Autumn Bridal Bouquet</h4>
+                <p class="product-desc">
+                  Burnt orange tulips with red carnations
+                </p>
+                <p class="price">₱3,710</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product18.png" alt="Heather Bridal Bouquet" />
+                <div class="product-overlay">
+                  <a href="#product18" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Heather Bridal Bouquet</h4>
+                <p class="product-desc">
+                  Blush roses, lisianthus, and calla lilies
+                </p>
+                <p class="price">₱6,360</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product19.png" alt="Trinity Box" />
+                <div class="product-overlay">
+                  <a href="#product19" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Trinity Box</h4>
+                <p class="product-desc">
+                  Red roses with Ferrero Rocher chocolates
+                </p>
+                <p class="price">₱2,749</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product20.png" alt="Bouquet of Lifetime" />
+                <div class="product-overlay">
+                  <a href="#product20" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4>Bouquet of Lifetime</h4>
+                <p class="product-desc">Preserved roses lasting 1-3 years</p>
+                <p class="price">₱2,309</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product25.png" alt="Bouquet of Lifetime" />
+                <div class="product-overlay">
+                  <a href="#product21" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4> Fluff Togetherness </h4>
+                <p class="product-desc">Pure, fluffy Dutch peonies overflowing from a beautifully.</p>
+                <p class="price">₱4,079</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product26.png" alt="Bouquet of Lifetime" />
+                <div class="product-overlay">
+                  <a href="#product22" class="quick-view">Show All</a>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4> KINDNESS </h4>
+                <p class="product-desc"> Kindness is the sunshine in which virtue grows.</p>
+                <p class="price">₱6055</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product27.png" alt="Bouquet of Lifetime" />
+                <div class="product-overlay">
+                  <a href="#product23" class="quick-view">Show All</a>
+                </div>
+              </div>
+              <div class="product-info">
+                <h4> Rose Pink Basket </h4>
+                <p class="product-desc">A handcrafted bouquet of ethically sourced, sustainable pink and red roses </p>
+                <p class="price">₱2,899</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product21.png" alt="Bouquet of Lifetime" />
+                <div class="product-overlay">
+                  <a href="#product24" class="quick-view">Show All</a>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4> BLACK AND WHITE </h4>
+                <p class="product-desc">Elegant, serene, and timeless — this arrangement features 20 white roses</p>
+                <p class="price">₱ 6055</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product22.png" alt="Bouquet of Lifetime" />
+                <div class="product-overlay">
+                  <a href="#product25" class="quick-view">Show All</a>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4> CHERISH DEARLY </h4>
+                <p class="product-desc">Chic, romantic, and effortlessly elegant — this arrangement features 35 pink
+                  roses. </p>
+                <p class="price">₱6,055</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product23.png" alt="Bouquet of Lifetime" />
+                <div class="product-overlay">
+                  <a href="#product26" class="quick-view">Show All</a>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4> UNCONDITIONAL LOVE </h4>
+                <p class="product-desc"> A timeless expression of love, this luxurious arrangement features 75 red roses
+                </p>
+                <p class="price">₱13,638</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/flower_product28.png" alt="Bouquet of Lifetime" />
+                <div class="product-overlay">
+                  <a href="#product27" class="quick-view">Show All</a>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <h4> FLOWERS IN HEART SHAPE BOX </h4>
+                <p class="product-desc"> This exquisite heart-shaped arrangement of 150 roses </p>
+                <p class="price">₱18,575</p>
+                <div class="product-actions">
+                  <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button class="cart">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- yung 'View All Products' button para mailing yung gabos na products -->
+          <div class="view-all-container" style="text-align: center; margin-top: 3rem;">
+            <a href="#" class="popular-showcase-link" id="viewAllBtn">
+              View All Products
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- yung mga reviews kang customers -->
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <h2 class="section-title"><span>REVIEWS</span> FROM SATISFIED CUSTOMERS</h2>
+          <p class="section-subtitle">
+            What our lovely customers say about us
+          </p>
+
+          <div class="reviews-carousel-container">
+            <button class="reviews-carousel-btn reviews-prev" id="reviewsPrevBtn">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="reviews-carousel-wrapper">
+              <div class="reviews-carousel-track">
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "Absolutely stunning flowers! The bouquet was fresh, elegant, and
+                    delivered right on time. My wife loved it!"
+                  </p>
+                  <h4 class="review-name">— Mark Dela Cruz</h4>
+                </div>
+
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "Bliss & Bloom never disappoints. Their arrangements are always
+                    beautiful and full of life. Highly recommended!"
+                  </p>
+                  <h4 class="review-name">— Angela Santos</h4>
+                </div>
+
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "Great service and very friendly staff. The flowers were gorgeous and
+                    exactly as pictured."
+                  </p>
+                  <h4 class="review-name">— Joshua Lim</h4>
+                </div>
+
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "The bouquet looked even more beautiful in person. Fresh flowers, elegant wrapping, and delivered on
+                    time. Will definitely order again!"
+                  </p>
+                  <h4 class="review-name">— Maria L.</h4>
+                </div>
+
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "I ordered flowers for our anniversary and my partner loved it so much. The arrangement was classy
+                    and
+                    smelled amazing."
+                  </p>
+                  <h4 class="review-name">— Joshua R.</h4>
+                </div>
+
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "The quality is top-notch. You can really see the care and effort put into every bouquet. Highly
+                    recommended."
+                  </p>
+                  <h4 class="review-name">— Angela P.</h4>
+                </div>
+
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "They helped me customize my order and answered all my questions patiently. The flowers arrived
+                    fresh
+                    and beautiful."
+                  </p>
+                  <h4 class="review-name">— Christine M.</h4>
+                </div>
+
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "I've ordered multiple times already, and they never disappoint. Every bouquet feels special and
+                    thoughtfully made."
+                  </p>
+                  <h4 class="review-name">— Daniel S.</h4>
+                </div>
+
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "The flowers were arranged so beautifully — simple, classy, and romantic. Perfect gift for someone
+                    you
+                    love."
+                  </p>
+                  <h4 class="review-name">— Patricia A.</h4>
+                </div>
+
+                <div class="review-card">
+                  <div class="stars">
+                    ★★★★★
+                  </div>
+                  <p class="review-text">
+                    "I sent this as a surprise gift and it brought the biggest smile. Thank you for making moments extra
+                    special!"
+                  </p>
+                  <h4 class="review-name">— Mark T.</h4>
+                </div>
+              </div>
+            </div>
+
+            <button class="reviews-carousel-btn reviews-next" id="reviewsNextBtn">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Yung mission and vision na surat -->
+      <section class="mission-vision">
+        <div class="container">
+          <div class="mission-vision-grid">
+            <div class="mission-card">
+              <div class="card-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <h3>Our Mission</h3>
+              <p>
+                To deliver joy, elegance and extraordinary touches for every
+                occasion. We believe that every bloom carries a message—with every
+                handcrafted bouquet we aim to spread happiness, strengthen bonds,
+                and create lasting impressions.
+              </p>
+            </div>
+            <div class="vision-card">
+              <div class="card-icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Our Vision</h3>
+              <p>
+                To redefine floral artistry by blending elegance, innovation, and
+                emotional storytelling—creating timeless floral experiences that
+                inspire bliss.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  </section>
+
+  <!-- Follow Us Footer -->
+  <footer class="follow-us-footer">
+    <p class="follow-us-title">Follow Us</p>
+    <div class="follow-us-icons">
+      <a href="https://www.facebook.com/people/Bliss-and-Bloom-Flower-Shop/61586665910589/"
+        class="social-icon social-facebook" target="_blank" aria-label="Follow us on Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/blissandbloom.ph" class="social-icon social-instagram" target="_blank"
+        aria-label="Follow us on Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.tiktok.com/@blissandbloom.ph" class="social-icon social-tiktok" target="_blank"
+        aria-label="Follow us on TikTok">
+        <i class="fa-brands fa-tiktok"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- yung pinaka ibaba..  -->
+  <hr>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Bliss & Bloom</h3>
+          <p>Where Every Bloom Tells Your Story</p>
+          <p>&copy; 2025 Bliss & Bloom Flower Shop. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-column">
+            <h4>INFORMATION</h4>
+            <a href="faq.html">FAQ</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About Us</a>
+            <a href="product_care.html">Product Care</a>
+
+          </div>
+
+          <div class="footer-column">
+            <h4>HELP</h4>
+            <a href="contact_us.html">Contact Us</a>
+            <a href="delivery.html">Delivery Policy</a>
+            <a href="payment.html">Payment Options</a>
+            <a href="terms.html"> Terms & Conditions</a>
+
+          </div>
+
+          <div class="footer-column">
+            <h4>ACCOUNT</h4>
+            <a href="login.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- eto naman yung mga naka-surat pag tig click yung sarong product like 'view all' -->
+  <div id="product1" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product1.png" alt="Scarlet Grace Bouquet" />
+          <h2>Scarlet Grace Bouquet</h2>
+          <p class="price">Price: ₱3,890</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Scarlet grace Bouquet - Celebrate love with timeless elegance
+            through the scarlet grace Bouquet, a romantic arrangement of 12
+            classic red roses paired with the soft, airy charm of misty white
+            or baby’s breath. A symbol of deep affection, loyalty, and
+            devotion, this bouquet is a graceful gesture that never goes out
+            of style.
+          </p>
+          <p>
+            Care Guide · Place in a cool, dry area. · Avoid direct sunlight,
+            heat sources, and drafts. Please note that each flower arrangement
+            is unique, and the final product may vary from the image shown.
+            Wrapper color will depend on availability. For special requests
+            and customizations, send us a message at + 63 9175827493.
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <!-- yung mga Add-ons na pwede idagdag ng customers-->
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- mga total prices kung ano yung mga tig dagdag ninda or add-ons  -->
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱3,890</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱3,890</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product1">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product2" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product2.png" alt="Scarlet Grace Bouquet" />
+          <h2>Sweet Devotion</h2>
+          <p class="price">Price: ₱2,690</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Sweet Devotion Bouquet - Letyour love shine with the Sweet
+            Devotion bouquet—a romantic blend of imported red China roses,
+            pink cluster carnations, and soft parviflora greens. This
+            beautiful bouquet captures the essence of passion and tenderness
+            in every bloom, creating a heartfelt gift that says “I’m thinking
+            ofyou” in the most elegantway.
+          </p>
+          <p>
+            Care Guide · Place in a cool, dry area. · Avoid direct sunlight,
+            heat sources, and drafts. Please note that each flower arrangement
+            is unique, and the final product may vary from the image shown.
+            Wrapper color will depend on availability.
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱2,690</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱2,690</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product2">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product3" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product3.png" alt="Scarlet Grace Bouquet" />
+          <h2>Pure Love Bouquet</h2>
+          <p class="price">Price: ₱3,690</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Pure Love Bouquet - Celebrate love with red roses, pink lilies,
+            and white lisianthus—perfect for romantic surprises and
+            anniversaries.
+          </p>
+          <p>
+            Care Guide · Place in a cool, dry area. · Avoid direct sunlight,
+            heat sources, and drafts. Please note that each flower arrangement
+            is unique, and the final product may vary from the image shown.
+            Wrapper color will
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱3,690</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱3,690</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product3">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product4" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product4.png" alt="Scarlet Grace Bouquet" />
+          <h2>Petal Empress</h2>
+          <p class="price">Price: ₱4,999</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Petal Empress - is a luxurious statement bouquet featuring
+            perfectly arranged blush pink roses embraced by softwhite and pink
+            carnations, accented with delicate fillers and fresh greenery.
+            Designed in a regal circular form and wrapped in elegant pastel
+            layers, this arrangement radiates romance, grace, and
+            sophistication—perfect for grand celebrations and unforgettable
+            expressions oflove.
+          </p>
+          <p>
+            Care Guide · Place in a cool, dry area. · Avoid direct sunlight,
+            heat sources, and drafts. Please note that each flower arrangement
+            is unique, and the final product may vary from the image shown.
+            Wrapper color will depend on availability. For special requests
+            and customizations, send us a message at + 63 9175827493.
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱4,999</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱4,999</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product4">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product5" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product5.png" alt="Scarlet Grace Bouquet" />
+          <h2>Heart Embrace Bouquet</h2>
+          <p class="price">Price: ₱1899</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Heart Embrace Bouquet - A luxurious standing bouquet of 50 fresh
+            Ecuadorianroses adorned with Italian ruscus leaves, and showcasing
+            its stems in all its glory, arranged to create an unforgettable
+            impression.
+          </p>
+          <p>
+            Care Guide · Place in a cool, dry area. · Avoid direct sunlight,
+            heat sources, and drafts. Please note that each flower arrangement
+            is unique, and the final product may vary from the image shown.
+            Wrapper color will depend on availability. For special requests
+            and customizations, send us a message at + 63 9175827493.
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱1,899</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱1,899</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product5">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product6" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product6.png" alt="Scarlet Grace Bouquet" />
+          <h2>BETTER DAYS</h2>
+          <p class="price">Price: ₱3,090</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Better Days - Bring warmth, hope, and healing with the Better Days
+            bouquet. Perfectly arranged with lush greenery and tied with a
+            softwhite ribbon, this gift brings comfort and sunshine to someone
+            on the mend.
+          </p>
+          <p>
+            Care Guide · Place in a cool, dry area. · Avoid direct sunlight,
+            heat sources, and drafts. Please note that each flower wonderful
+            gift for a girl or young lady and a true delight in every
+            location.
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱3,090</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱3,090</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product6">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product7" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product7.png" alt="Scarlet Grace Bouquet" />
+          <h2>Lily Love</h2>
+          <p class="price">Price: ₱5,399</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Lily Love - Enjoy this blooming mix of fresh lilies, red and pink
+            roses - a truly luxurious mix and a great gift for a very special
+            friend, a wedding anniversary or simply as a generous gesture
+            demonstrating one's love for one other. elegant mix of fresh
+            flowers, that combines the unique scents of lilies with the noble
+            looks of roses. A great decorative item for your home or as a gift
+            for someone special.
+          </p>
+          <p>
+            Care Guide · Place in a cool, dry area. · Avoid direct sunlight,
+            heat sources, and drafts. Please note that each flower arrangement
+            is unique, and the final product may vary from the image shown.
+            Wrapper color will depend on availability. For special requests
+            and customizations, send us a message at + 63 9175827493
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱5,399</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱5,399</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product7">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product8" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product8.png" alt="Scarlet Grace Bouquet" />
+          <h2>CARINA</h2>
+          <p class="price">Price: ₱4,199</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Carina - This very delicate vase arrangement "Carina" comes with
+            blush roses, white lilies and alstroemeria. It is a wonderful gift
+            for a girl or young lady and a true delight in every location.
+          </p>
+          <p>
+            Care Guide · Place in a cool, dry area. · Avoid direct sunlight,
+            heat sources, and drafts. Please note that each flower arrangement
+            is unique, and the final product may vary from the image shown.
+            Wrapper color will depend on availability. For special requests
+            and customizations, send us a message at + 63 9175827493.
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱4,199</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱4,199</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product8">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product9" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product9.png" alt="Scarlet Grace Bouquet" />
+          <h2> SIENNA </h2>
+          <p class="price">Price: ₱1,749</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Sienna - Wonderfully uplifting, our vibrant
+            Sienna arrangement is the one thatyou need if you're looking to
+            delightfully surprise a loved one! With hues of exuberant pinks and yellows, it is made
+            complete with lively greens, thanks to its
+            eucalyptus stems.
+          </p>
+          <p> Care Guide
+            · Place in a cool, dry area.
+            · Avoid direct sunlight, heat sources, and drafts.
+            Please note that each flower arrangement is
+            unique, and the final product may vary from
+            the image shown. Wrapper color will depend
+            on availability.
+            For special requests and customizations, send
+            us a message at + 63 9175827493.</p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱1,749</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱1,749</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product9">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product10" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product10.png" alt="Red, White, My Delight" />
+          <h2> RED WHITE, MY DELIGHT </h2>
+          <p class="price">Price: ₱5,499</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Red, White, My Delight - this rich flower
+            arrangement comes with white lilies, red roses and
+            carnations, and white daisy flowers. A truly elegant
+            mix of fresh flowers, that combines the unique scents
+            oflilies with the noble looks of roses. A great
+            decorative item for your home or as a gift for
+            someone special.
+          </p>
+          <p> Care Guide
+            · Place in a cool, dry area.
+            · Avoid direct sunlight, heat sources, and drafts.
+            Please note that each flower arrangement is unique,
+            and the final product may vary from the image
+            shown. Wrapper color will depend on availability.
+            For special requests and customizations, send us a
+            message at + 63 9175827493
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱5,499</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱5,499</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product10">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product11" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product11.png" alt="Scarlet Grace Bouquet" />
+          <h2>SUNSHINE BLOOM BASKET</h2>
+          <p class="price">Price: ₱2,799</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Sunshine Bloom Basket - The
+            Arcadia Basket is a colorful
+            combination of seasonal,
+            hand-tied flowers, expertly
+            arranged by a local florist. This
+            classic basket design is perfect
+            for brightening someone's day
+            and adding a cheerful touch to
+            any occasion.
+          </p>
+          <p>
+            Care Guide
+            · Place in a cool, dry area.
+            · Avoid direct sunlight, heat sources, and
+            drafts.
+            Please note that each flower
+            arrangement is unique, and the final
+            product may vary from the image
+            shown. Wrapper color will depend on
+            availability.
+            For special requests and customizations,
+            send us a message at + 63 9175827493
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱2,799</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱2,799</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product11">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product12" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product12.png" alt="Scarlet Grace Bouquet" />
+          <h2>ROSE CITRUS BASKET</h2>
+          <p class="price">Price: ₱2,899</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Rose Citrus Basket - Expertly handcrafted by local florists using sustainable and
+            ethically sourced flowers, our Rose Basket Citrus bouquet is a stunning combination of colors that makes it
+            the ideal gift for Birthdays and Anniversaries.
+          </p>
+          <p>
+            Care Guide
+            · Place in a cool, dry area.
+            · Avoid direct sunlight, heat sources, and
+            drafts.
+            Please note that each flower arrangement is
+            unique, and the final product may vary
+            from the image shown. Wrapper color will
+            depend on availability.
+            For special requests and customizations,
+            send us a message at + 63 9175827493
+          </p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱2,899</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱2,899</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product12">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product13" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product13.png" alt="Scarlet Grace Bouquet" />
+          <h2>TOUCH OF PINK</h2>
+          <p class="price">Price: ₱7,850</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>
+            Touch of Pink - Say goodbye
+            with grace and compassion
+            by sending Touch of Pink a
+            touching floral tribute for
+            those grieving a loss.
+            Thoughtfully crafted with
+            pink lilies, hydrangea,
+            lisiantus/roses and mums
+            Express your heartfelt
+            sympathy and condolences
+            Uplifting, fresh flowers
+            provide comfort in difficult
+            times.
+          </p>
+          <p></p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱7,850</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱7,850</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product13">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product14" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product14.png" alt="Scarlet Grace Bouquet" />
+          <h2>Light and Shadow</h2>
+          <p class="price">Price: ₱8,450</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Light and Shadow - Make a moving memorial
+            with Light and Shadow, the elegant lisiantus,
+            cymbidium, anthuriums and lilies sympathy
+            flower stand. This exquisite arrangement
+            beautifully honors your loved one with:
+            Stunning lisiantus, cymbidium, anthuriums and
+            lilies in sophisticated hues Lush green leaves
+            and foliage provide fresh accents A stylish
+            wooden stand for an elegant presentation and
+            Give comfort and pay tribute with Light and
+            Shadow. The pure white blooms and mix of
+            textures create a serene, heartfelt memorial to
+            your loved one. It's a touching way to say
+            goodbye and celebrate a life well lived. Perfect for expressing</p>
+          <p> sympathy, honoring their memory or sendingyour condolences. Light and Shadow delivers
+            beauty, comfort and sentiment at a difficult
+            time.</p>
+
+         <!-- Customization Section -->
+          <div class="customization-section">
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱8,450</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱8,450</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product14">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product15" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product15.png" alt="Scarlet Grace Bouquet" />
+          <h2>GLORIOUS MEMORIES SYMPHATY BASKET</h2>
+          <p class="price">Price: ₱3,950</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Glorious Memories Sympathy Basket - Honoar a loved one's memory with the Glorious Memories Sympathy Basket.
+            •
+            Purple and pink compassion blossoms• Purple roses and pink stargazer lilies• Pure whit gladioli and gentle
+            white heather
+            This beautiful basket is a
+            timeless tribute that celebrates the life of someone special</p>
+          <p></p>
+
+         <!-- Customization Section -->
+          <div class="customization-section">
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="customization-group">
+
+            </div>
+
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱3,950</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱3,950</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product15">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product16" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product16.png" alt="Scarlet Grace Bouquet" />
+          <h2>Summer Bridal Bouquet</h2>
+          <p class="price">Price: ₱5,300</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Summer Bridal Bouquet - A
+            radiant celebration ofwarmth
+            and joy, summer embodies the
+            golden glow of sunlit fields and
+            endless love. This handcrafted
+            bridal bouquet bursts with
+            vibrant hues and lush textures,
+            featuring: Peach and Blush
+            Carnations, Golden Mrigolds,
+            Deep Magenta Celosia , Dried
+            Grasses, Chamomile Blooms and
+            Rananculus & Lisianthus.
+            Designed for the free-spirited
+            bride who finds beauty in wild</p>
+          <p>gardens and sun-kissed days, this bouquet is a joyful embrace of love's mostvibrant moments.</p>
+
+         <!-- Customization Section -->
+          <div class="customization-section">
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱5,300</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱5,300</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product16">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product17" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product17.png" alt="Scarlet Grace Bouquet" />
+          <h2>Autumn Bridal Bouquet</h2>
+          <p class="price">Price: ₱3,710</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Autumn Bridal Bouquet - A bold
+            celebration of passion, warmth, and
+            untamed beauty, Autumn captures the
+            rich hues ofthe season in a striking
+            bridal bouquet. This handcrafted
+            arrangement features an exquisite
+            medley of: Burnt Orange tulips, Red
+            Carnations, Golden Everlastings,
+            Burgundy Scabiosa & Amaranthus,
+            and Flowing Satin Ribbon. Designed
+            for the bride who embraces bold
+            colors and a fiery, unforgettable love
+            story.</p>
+          <p></p>
+         <!-- Customization Section -->
+          <div class="customization-section">
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱6,360</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱6,360</span>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-add-to-cart" data-product-id="product18">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product18" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product18.png" alt="Scarlet Grace Bouquet" />
+          <h2>HEATHER BRIDAL BOUQUET</h2>
+          <p class="price">Price: ₱6,360</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Heather Bridal Bouquet - A radiant
+            celebration of new beginnings and timeless
+            romance, Heather captures the essence of
+            love in full bloom. This handcrafted bridal
+            bouquet features an exquisite arrangement
+            of: Blush Roses, Lisianthus, Calla Lilies,
+            Astilbe & Seasonal Blooms and Natural
+            Foliage. Thoughtfully designed to
+            complementyour most special day, this
+            bouquet radiates warmth, beauty, and
+            effortless sophistication.</p>
+          <p></p>
+
+         <!-- Customization Section -->
+          <div class="customization-section">
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="customization-group">
+
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱6,360</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱6,360</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product18">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product19" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product19.png" alt="Scarlet Grace Bouquet" />
+          <h2>Trinity Box Bouquet of Lifetime</h2>
+          <p class="price">Price: ₱2,749</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Trinity Box - A treasure trove oftimeless romance that portrays your passion
+            with a little hint of magic. Presented elegantly in a box of fresh red roses and
+            chocolates - this gift is perfectwhen it comes to expressing your love and
+            devotion for the love ofyour life as red roses is well-known to be the symbol of
+            love.</p>
+          <p>(SIZE)
+            Box : 16cm (H) x 16cm (L) X 16cm (W)
+            l BLOOMS
+            Red roses (9 Stalks)
+            l PERFECT FOR
+            Anniversary, Romantic Gestures, Rose Lover, Chocolate Lover l COMES WITH
+            Diamond Pins (9 Pcs)
+            Ferrero Rocher (6 Pcs) Free message card</p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱2,749</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱2,749</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product19">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="product20" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product20.png" alt="Scarlet Grace Bouquet" />
+          <h2>Bouquet of a Lifetime</h2>
+          <p class="price">Price: ₱2,309</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Bouquet of a Lifetime - Classy and chic, woo your special someone with
+            this stunning preserved rose arrangement. 'Bouquet of a Lifetime'
+            embodies your heartfelt dedication & lifelong affection, only to be given to
+            the worthy one.</p>
+          <p>SIZE Product Size: 12 X 19cm Box Size: 15 X 15 X 24cm BLOOMS Red Preserved Roses (3 Stalks) Lifespan: 1-3
+            years PERFECT FOR Mother's Day Flowers. Thank You Token, Appreciation Gestures, Carnation Lover COMES WITH
+            Free message card</p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱2,309</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱2,309</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product20">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== NEW PRODUCT POPUPS - ADD THESE BEFORE THE CART MODAL ==================== -->
+
+  <!-- Product 21 Popup: Fluff Togetherness -->
+  <div id="product21" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product25.png" alt="Fluff Togetherness" />
+          <h2>Fluff Togetherness</h2>
+          <p class="price">Price: ₱7,400</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Pure, fluffy Dutch peonies overflowing from a beautifully arranged peonies flower basket by Bliss and Bloom
+            Flower Shop bringing warmth and happiness to anyone who receives it.</p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱7,400</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱7,400</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product21">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 22 Popup: KINDNESS -->
+  <div id="product22" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product26.png" alt="KINDNESS" />
+          <h2>KINDNESS</h2>
+          <p class="price">Price: ₱7,400</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>"Kindness is the sunshine in which virtue grows."</p>
+          <p>Featuring fresh Dutch hydrangeas, ranunculus, and Ecuadorian roses, the KINDNESS arrangement from Bliss and
+            Bloom Collection will convey nothing but a message of warmth to your loved ones!</p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱7,400</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱7,400</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product22">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 23 Popup: Rose Pink Basket -->
+  <div id="product23" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product27.png" alt="Rose Pink Basket" />
+          <h2>Rose Pink Basket</h2>
+          <p class="price">Price: ₱2,899</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>A handcrafted bouquet of ethically sourced, sustainable pink and red roses, this arrangement is perfect for
+            any occasion. Giving flowers may be seen as old-fashioned by some, but it will always be remembered by
+            people like your mum!</p>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="500">Deluxe (+₱500)</button>
+                <button class="type-btn" data-type="premium" data-price="1000">Premium (+₱1,000)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱2,899</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱2,899</span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <button class="btn btn-add-to-cart" data-product-id="product23">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 24 Popup: BLACK AND WHITE -->
+  <div id="product24" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product21.png" alt="BLACK AND WHITE" />
+          <h2>BLACK AND WHITE</h2>
+          <p class="price">Price: ₱4,079</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Elegant, serene, and timeless — this arrangement features 20 white roses delicately accented with fresh
+            green fillers, all beautifully arranged in a luxurious round black box. With its clean contrast and graceful
+            charm, it's the perfect floral gift for meaningful moments.</p>
+
+          <h3>Product Details:</h3>
+          <ul>
+            <li>20 White Roses</li>
+            <li>Premium Round Black Box</li>
+            <li>Dome-Style Floral Arrangement</li>
+          </ul>
+
+          <h3>Meaning Behind the Arrangement:</h3>
+          <p>White roses symbolize purity, respect, and heartfelt sincerity. Whether you're offering comfort,
+            celebrating a new beginning, or expressing timeless love, this arrangement is a refined way to say it all
+            with quiet elegance.</p>
+
+          <h3>Flower Box Care Tips:</h3>
+          <ul>
+            <li><strong>Keep Cool:</strong> Place in a cool spot, away from direct sunlight and heat.</li>
+            <li><strong>Water Gently:</strong> Check foam daily; if dry, add a small amount of water near stems.</li>
+            <li><strong>Avoid Drafts:</strong> Keep away from fans, ACs, and humid areas.</li>
+            <li><strong>Don't Remove Flowers:</strong> Enjoy the arrangement as it is—no need to rearrange.</li>
+            <li><strong>Remove Wilting Blooms:</strong> Gently pluck any fading flowers to keep the rest fresh.</li>
+            <li><strong>Handle with Care:</strong> Always lift from the base and keep upright.</li>
+          </ul>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="3671">Deluxe (+₱3,671)</button>
+                <button class="type-btn" data-type="premium" data-price="7138">Premium (+₱7,138)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱4,079</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱4,079</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product24">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 25 Popup: CHERISH DEARLY -->
+  <div id="product25" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product22.png" alt="CHERISH DEARLY" />
+          <h2>CHERISH DEARLY</h2>
+          <p class="price">Price: ₱6,055</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Chic, romantic, and effortlessly elegant — this arrangement features 35 pink roses adorned with fresh green
+            fillers, thoughtfully arranged in a classic white round box. It's a soft and graceful floral surprise that
+            brings charm and sweetness to every occasion.</p>
+
+          <h3>Product Details:</h3>
+          <ul>
+            <li>35 Pink Roses</li>
+            <li>White Round Box</li>
+            <li>Dome-Style Floral Arrangement</li>
+          </ul>
+
+          <h3>Meaning Behind the Arrangement:</h3>
+          <p>Pink roses express admiration, appreciation, and gentle affection. Whether you're celebrating a birthday,
+            sending love, or sharing a thoughtful gesture "just because," this bouquet is the perfect way to convey
+            warmth and heartfelt emotions with timeless beauty.</p>
+
+          <h3>Flower Box Care Tips:</h3>
+          <ul>
+            <li><strong>Keep Cool:</strong> Place in a cool spot, away from direct sunlight and heat.</li>
+            <li><strong>Water Gently:</strong> Check foam daily; if dry, add a small amount of water near stems.</li>
+            <li><strong>Avoid Drafts:</strong> Keep away from fans, ACs, and humid areas.</li>
+            <li><strong>Don't Remove Flowers:</strong> Enjoy the arrangement as it is—no need to rearrange.</li>
+            <li><strong>Remove Wilting Blooms:</strong> Gently pluck any fading flowers to keep the rest fresh.</li>
+            <li><strong>Handle with Care:</strong> Always lift from the base and keep upright.</li>
+          </ul>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="5376">Deluxe (+₱5,376)</button>
+                <button class="type-btn" data-type="premium" data-price="10526">Premium (+₱10,526)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱6,055</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱6,055</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product25">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 26 Popup: UNCONDITIONAL LOVE -->
+  <div id="product26" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product23.png" alt="UNCONDITIONAL LOVE" />
+          <h2>UNCONDITIONAL LOVE</h2>
+          <p class="price">Price: ₱13,638</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>A timeless expression of love, this luxurious arrangement features 75 red roses and 25 pink roses — closely
+            packed in an elegant black cylindrical box. With premium blooms in rich, romantic hues, this bouquet takes
+            classic gifting to a whole new level of sophistication and sentiment.</p>
+
+          <h3>Product Details:</h3>
+          <ul>
+            <li>75 Red Roses</li>
+            <li>25 Pink Roses</li>
+            <li>Luxury Black Box</li>
+          </ul>
+
+          <h3>Meaning Behind the Arrangement:</h3>
+          <p>Red roses symbolize deep, unconditional love, while pink roses reflect admiration, gratitude, and gentle
+            affection. Together, they create a powerful message of heartfelt devotion. Whether it's for an anniversary,
+            proposal, or romantic surprise, this premium arrangement is designed to make your beloved feel truly
+            cherished.</p>
+
+          <h3>Flower Box Care Tips:</h3>
+          <ul>
+            <li><strong>Keep Cool:</strong> Place in a cool spot, away from direct sunlight and heat.</li>
+            <li><strong>Water Gently:</strong> Check foam daily; if dry, add a small amount of water near stems.</li>
+            <li><strong>Avoid Drafts:</strong> Keep away from fans, ACs, and humid areas.</li>
+            <li><strong>Don't Remove Flowers:</strong> Enjoy the arrangement as it is—no need to rearrange.</li>
+            <li><strong>Remove Wilting Blooms:</strong> Gently pluck any fading flowers to keep the rest fresh.</li>
+            <li><strong>Handle with Care:</strong> Always lift from the base and keep upright.</li>
+          </ul>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="12393">Deluxe (+₱12,393)</button>
+                <button class="type-btn" data-type="premium" data-price="23994">Premium (+₱23,994)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱13,638</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱13,638</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product26">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="product27" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product28.png" alt="FLOWERS IN HEART SHAPE BOX" />
+          <h2>FLOWERS IN HEART SHAPE BOX</h2>
+          <p class="price">Price: ₱18,575</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>This exquisite heart-shaped arrangement of 150 roses in white, purple, and red hues is a stunning blend of
+            elegance, romance, and enchantment. Beautifully curated in a luxurious box, it's the perfect gift to
+            celebrate love in all its forms.</p>
+
+          <h3>Product Details:</h3>
+          <ul>
+            <li>150 White, Purple & Red Roses</li>
+            <li>Heart-Shaped Box</li>
+          </ul>
+
+          <h3>Meaning Behind the Arrangement:</h3>
+          <p>Red roses symbolize deep love, white roses represent purity and sincerity, while purple roses evoke
+            enchantment and admiration. Together, they create a heartfelt floral message — ideal for anniversaries,
+            proposals, or any moment where emotions run deep and beauty says it all.</p>
+
+          <h3>Flower Box Care Tips:</h3>
+          <ul>
+            <li><strong>Keep Cool:</strong> Place in a cool spot, away from direct sunlight and heat.</li>
+            <li><strong>Water Gently:</strong> Check foam daily; if dry, add a small amount of water near stems.</li>
+            <li><strong>Avoid Drafts:</strong> Keep away from fans, ACs, and humid areas.</li>
+            <li><strong>Don't Remove Flowers:</strong> Enjoy the arrangement as it is—no need to rearrange.</li>
+            <li><strong>Remove Wilting Blooms:</strong> Gently pluck any fading flowers to keep the rest fresh.</li>
+            <li><strong>Handle with Care:</strong> Always lift from the base and keep upright.</li>
+          </ul>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="16718">Deluxe (+₱16,718)</button>
+                <button class="type-btn" data-type="premium" data-price="32507">Premium (+₱32,507)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱18,575</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱18,575</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product27">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 28 Popup: PURPLE ROSES BOX -->
+  <div id="product28" class="popup">
+    <div class="popup-content">
+      <a href="#products" class="close">&times;</a>
+
+      <div class="popup-body">
+        <div class="popup-image">
+          <img src="images/flower_product28.png" alt="PURPLE ROSES BOX" />
+          <h2>PURPLE ROSES BOX</h2>
+          <p class="price">Price: ₱6,749</p>
+        </div>
+
+        <div class="popup-details">
+          <h2>Description</h2>
+          <p>Make a statement of enchantment and elegance with this luxurious arrangement of 40 purple roses,
+            beautifully accented with fresh fillers and arranged in a pristine white round box. With its regal hue and
+            graceful presentation, this floral design is made to mesmerize and impress.</p>
+
+          <h3>Product Details:</h3>
+          <ul>
+            <li>40 Purple Roses</li>
+            <li>White Round Box</li>
+            <li>Dome-Style Floral Arrangement</li>
+          </ul>
+
+          <h3>Meaning Behind the Arrangement:</h3>
+          <p>Purple roses symbolize enchantment, admiration, and love at first sight. Ideal for romantic gestures,
+            milestone celebrations, or someone who simply deserves something extraordinary, this stunning arrangement is
+            a memorable way to show how truly special they are.</p>
+
+          <h3>Flower Box Care Tips:</h3>
+          <ul>
+            <li><strong>Keep Cool:</strong> Place in a cool spot, away from direct sunlight and heat.</li>
+            <li><strong>Water Gently:</strong> Check foam daily; if dry, add a small amount of water near stems.</li>
+            <li><strong>Avoid Drafts:</strong> Keep away from fans, ACs, and humid areas.</li>
+            <li><strong>Don't Remove Flowers:</strong> Enjoy the arrangement as it is—no need to rearrange.</li>
+            <li><strong>Remove Wilting Blooms:</strong> Gently pluck any fading flowers to keep the rest fresh.</li>
+            <li><strong>Handle with Care:</strong> Always lift from the base and keep upright.</li>
+          </ul>
+
+          <!-- Customization Section -->
+          <div class="customization-section">
+            <h3>Customize Your Order</h3>
+
+            <div class="customization-group">
+              <label class="customization-label">Package Type:</label>
+              <div class="type-buttons">
+                <button class="type-btn active" data-type="classic" data-price="0">Classic (+₱0)</button>
+                <button class="type-btn" data-type="deluxe" data-price="6074">Deluxe (+₱6,074)</button>
+                <button class="type-btn" data-type="premium" data-price="11811">Premium (+₱11,811)</button>
+              </div>
+            </div>
+
+            <div class="customization-group">
+              <label class="customization-label">Add-ons:</label>
+              <div class="addon-options">
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="chocolate" data-price="899">
+                  <span>Chocolate Box (+₱899)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="glassvase" data-price="99">
+                  <span>Glass Vase (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="iloveyou" data-price="99">
+                  <span>I Love You (Ballons) (+₱99)</span>
+                </label>
+                <label class="addon-checkbox">
+                  <input type="checkbox" class="addon-item" data-addon="happybirthday" data-price="99">
+                  <span>Happy Birthday (Ballons) (+₱99)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="price-summary">
+              <div class="price-row">
+                <span>Base Price:</span>
+                <span class="base-price">₱6,749</span>
+              </div>
+              <div class="price-row">
+                <span>Type Upgrade:</span>
+                <span class="type-price">₱0</span>
+              </div>
+              <div class="price-row">
+                <span>Add-ons:</span>
+                <span class="addon-price">₱0</span>
+              </div>
+              <div class="price-row total">
+                <span>Total Price:</span>
+                <span class="total-price">₱6,749</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-add-to-cart" data-product-id="product28">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- eto naman yung lumalabas pag tig click yung add to cart sa taas/navbar uni kung ano yung tig cart ninda na products-->
+  <div id="cartModal" class="cart-modal">
+    <div class="cart-modal-content">
+      <div class="cart-modal-header">
+        <h2>Shopping Cart</h2>
+        <button class="cart-modal-close">&times;</button>
+      </div>
+      <div class="cart-modal-body" id="cartItems">
+        <!-- Cart items will be inserted here -->
+      </div>
+      <div class="cart-modal-footer" id="cartFooter">
+        <!-- Cart total and checkout will be here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- eto naman yung lumalabas pag tig click yung favorite sa taas/navbar uni kung ano yung tig favorite ninda na flowers -->
+  <div id="favoritesModal" class="cart-modal">
+    <div class="cart-modal-content">
+      <div class="cart-modal-header">
+        <h2>Your Favorites</h2>
+        <button class="cart-modal-close">&times;</button>
+      </div>
+      <div class="cart-modal-body" id="favoriteItems">
+        <!-- Favorite items will be inserted here -->
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
